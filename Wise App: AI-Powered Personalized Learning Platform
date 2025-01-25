@@ -88,7 +88,7 @@ public class MainActivity extends AppCompatActivity {
         progressTextView.setText("Current Difficulty: " + difficultyLevel);
     }
 
-    // Setup sample questions (could be fetched from a database or API in real applications)
+    // Setup sample questions 
     private void setupQuestions() {
         questions = new HashMap<>();
         questions.put(1, "What is the capital of France?");
